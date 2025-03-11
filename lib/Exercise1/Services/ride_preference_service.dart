@@ -5,9 +5,6 @@ class RidePreferencesService {
   RidePreference?  _currentPref;
   final List<RidePreferencesListener> _listeners = [];
 
-  // Getter for current preference
-  RidePreference? get currentPreference => _currentPref;
-
 
   // Add a listener to the list
   void addListener(RidePreferencesListener listener) {
